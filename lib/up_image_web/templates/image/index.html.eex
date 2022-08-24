@@ -1,0 +1,16 @@
+<div class="flex justify-center bg-slate-200 h-screen w-screen">
+  <div class="container bg-slate-100 rounded-xl w-[402px] h-[469px] content-center flex flex-col justify-center mt-[10%] shadow-lg">
+   <h1 class="text-3xl text-center">Upload your image</h1>
+   <p class="text-center text-slate-600 text-sm"> File should be Jpeg, Png...<p>
+   <div class="m-8 rounded-xl w-[338px] h-[219px] border-teal-400 bg-slate-200 outline-dashed outline-2 outline-sky-500" >
+     <div>
+       <img alt="Upload image" ></img>
+     </div>
+     <p class="text-slate-600 text-center"> Drag & Drop your image here</p>
+   </div>
+    <p class="text-slate-600 text-center"> Or </p>
+   <div class="flex items-center justify-center">
+    <button class="bg-blue-500 rounded w-[102px] h-[32px] text-white">Choose a file</button>
+   </div>
+  </div>
+</div>
